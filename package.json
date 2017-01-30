@@ -1,0 +1,19 @@
+{
+  "name": "project-logics",
+  "version": "2.0.0",
+  "description": "node version two",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psundhar/Nodetest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psundhar/Nodetest/issues"
+  },
+  "homepage": "https://github.com/psundhar/Nodetest#readme"
+}
