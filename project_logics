@@ -1,0 +1,43 @@
+RICKYS-AIR: app rickysharma$ ls
+package.json
+RICKY's-AIR rickysharma$
+
+touch app.js
+git status
+
+git add app.js
+
+git commit -m "[added] empty app.js file"
+
+--------------------------------------------------------------------------------
+
+var args process.agv; --> args is an array now
+var flagsPresent          [];
+args.forEach(functional(item) {
+(item === '--sum' || item === '--product') {
+  flagsPresent.push(item);
+  }
+});
+}
+
+if(flagsPresent.length !== 1) {
+throw 'error: incorrect number of flags present';
+}
+
+var isNumber = function(x) {
+  return !isNaN(parsFloat(x)); --> tries its best to interpret it as a number
+}
+
+var numbers = args.filter(isNumberwd).map(parseFloat);  --> left with the numbers
+var result;
+
+if(flagsPresent[0] === '--sum') {
+result = numbers.reduce(function(a,b){return a+b});
+}
+
+if(flagsPresent[0] === '--product') {
+result = numbers.reduce(function(a,b){return a*b})
+}
+
+consolelog('hey')
+console.log("result is %d", result) --> decimal fill it in with whatever
